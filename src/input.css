@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .Navigation_Enclosure{
+        @apply  border-white bg-red-200 hover:border-red-300
+    }
+    .Navigation_Enclosure_Dark{
+        @apply  border-black bg-red-700 hover:border-red-800 text-white 
+    }
+    .Navigation_Options{
+        @apply text-black text-2xl hover:text-white
+    }
+    .Navigation_Options_Dark{
+        @apply text-white text-2xl hover:text-black
+    }
+    .Navigation_Sign_Button{
+        @apply  border-white bg-red-500 hover:text-white hover:border-black
+    }
+    .Navigation_Sign_Button_Dark{
+        @apply  border-black bg-red-800 hover:text-black hover:border-white hover:bg-red-600
+    }
+    .Service_Tile{
+        @apply flex flex-col text-3xl p-6 text-center transition-transform hover:scale-110 duration-500 cursor-pointer
+    }
+}
