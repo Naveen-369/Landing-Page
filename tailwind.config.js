@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily:{
       arsenalSC:["Arsenal SC", "sans-serif"],
-      Maname:["Maname", "serif"]
+      Maname:["Maname", "serif"],
+      Lora:["Lora", "serif"]
     }
   },
   plugins: [],
