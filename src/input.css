@@ -22,6 +22,12 @@
         @apply  border-black bg-red-800 hover:text-black hover:border-white hover:bg-red-600
     }
     .Service_Tile{
-        @apply flex flex-col text-3xl p-6 text-center transition-transform hover:scale-110 duration-500 cursor-pointer
+        @apply flex flex-col text-3xl p-6 bg-white text-center transition-transform hover:scale-110 duration-500 cursor-pointer dark:bg-black
+    }
+    .Pricing_Tile{
+        @apply bg-slate-200 dark:bg-slate-700 p-6 rounded-3xl text-xl transition-transform hover:scale-105 ease-in-out duration-500  cursor-pointer
+    }
+    .Feature_Post_Tile{
+        @apply bg-slate-200 max-w-[330px] flex flex-col rounded-3xl transition-transform hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer dark:bg-slate-800 dark:text-white dark:shadow-white
     }
 }
